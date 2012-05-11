@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/kondo/topcoder/tmp'
+let g:netrw_dirhist_2='/home/kondo/topcoder'
+let g:netrw_dirhist_3='/home/kondo/topcoder/source'
+let g:netrw_dirhist_4='/home/kondo/topcoder'
+let g:netrw_dirhist_5='/home/kondo/topcoder/tmp'
+let g:netrw_dirhist_6='/home/kondo/topcoder'
+let g:netrw_dirhist_7='/home/kondo'
+let g:netrw_dirhist_8='/home/kondo/.vim'
+let g:netrw_dirhist_9='/home/kondo'

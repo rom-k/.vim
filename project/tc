@@ -1,0 +1,5 @@
+tc=~/topcoder CD=. filter="*.cpp *.c *.pl" {
+ Source=source {
+  test.cpp
+ }
+}
