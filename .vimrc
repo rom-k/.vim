@@ -1,15 +1,15 @@
 "新しい行のインデントを現在行と同じにする
 set autoindent
 "バックアップファイルを作るディレクトリ
-"set backupdir=$HOME/vimbackup
+set backupdir=$HOME/.vim/backup
 "ファイル保存ダイアログの初期ディレクトリをバッファファイル位置に設定
-"set browsedir=buffer 
+set browsedir=buffer
 "クリップボードをWindowsと連携
 set clipboard=unnamed
 "Vi互換をオフ
 set nocompatible
 "スワップファイル用のディレクトリ
-"set directory=$HOME/vimbackup
+set directory=$HOME/.vim/backup
 "タブの代わりに空白文字を挿入する
 set expandtab
 "変更中のファイルでも、保存しないで他のファイルを表示
@@ -54,4 +54,7 @@ au BufNewFile,BufRead * set iminsert=0
 "全角スペースを視覚化（SJISで保存しなければいけないらしい）
 "highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=#666666
 "au BufNewFile,BufRead * match ZenkakuSpace /　/
+
+" yankring.vim
+let g:yankring_history_dir = '$HOME/.vim'
 
