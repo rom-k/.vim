@@ -58,3 +58,6 @@ au BufNewFile,BufRead * set iminsert=0
 " yankring.vim
 let g:yankring_history_dir = '$HOME/.vim'
 
+" フォントの設定
+set guifont=Ricty\ 11
+set guifontwide=Ricty\ 11
