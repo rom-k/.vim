@@ -64,3 +64,6 @@ set guifontwide=Ricty\ 11
 
 " Highlight search
 set hls
+
+"todo.vim
+au BufRead,BufNewFile *.todo setfiletype todo

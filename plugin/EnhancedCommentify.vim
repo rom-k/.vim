@@ -860,6 +860,9 @@ function s:GetFileTypeSettings(ft)
     elseif fileType == 'mail'
 	let b:ECcommentOpen = '>'
 	let b:ECcommentClose = ''
+    elseif fileType == 'todo'
+	let b:ECcommentOpen = 'd '
+	let b:ECcommentClose = ''
     endif
 
     if b:ECuseCommentsOp
