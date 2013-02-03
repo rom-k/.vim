@@ -863,6 +863,9 @@ function s:GetFileTypeSettings(ft)
     elseif fileType == 'todo'
 	let b:ECcommentOpen = 'd '
 	let b:ECcommentClose = ''
+    elseif fileType == 'py'
+	let b:ECcommentOpen = '#'
+	let b:ECcommentClose = ''
     endif
 
     if b:ECuseCommentsOp
